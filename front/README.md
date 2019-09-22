@@ -1,7 +1,14 @@
-### React-twitter
-### front-end 
+&#128035; React-twitter
+=======
+~~~
+서비스를 제대로 만들어 보고싶어 프로젝트를 시작하게 되었다.
+~~~
 
-#### 초기 환경 셋팅
+
+&#127853; front-end
+-------------
+
+### 초기 환경 셋팅
 > npm init
 
 > npm i react react-dome next
@@ -29,20 +36,36 @@ package.json
     "start": "next start"
   },
 ```
+
+***
+
+### 프로젝트 START !!
+
 > npm run dev
 
+*** 
 
-#### ant를 이용하여 화면 꾸미기(https://ant.design/)
+
+### ant를 이용하여 화면 꾸미기(https://ant.design/)
 
 > npm i antd
 
-회원가입페이지(signup.js)
+***
+
+### &#127793; 진행상황
+
+
+* 회원가입페이지(signup.js)
 - [x] 디자인
 - [x] useState
 
-```
-Hooks 사용 XX
 
+
+***
+
+### &#127827; 새로 알게 된 사실
+~~~
+Hooks를 사용하면 안되는 경우 
 1. 일반 함수
 2. 조건문
 3. 반복문
