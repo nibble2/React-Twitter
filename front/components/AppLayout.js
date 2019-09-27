@@ -1,5 +1,6 @@
 import React, { Children } from 'react' ;
 import Link from 'next/link' ;
+import ProTypes from 'prop-types'
 import { Menu , Input, Button} from 'antd' ;
 
 
@@ -19,4 +20,7 @@ const AppLayout = ({ children }) => {
     ) ;
 } ;
 
+AppLayout.ProTypes = {
+    children: ProTypes.node, 
+} ;
 export default AppLayout ;
